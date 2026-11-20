@@ -3,15 +3,15 @@ cask "taw-fleet" do
   app "TAW Fleet.app"
   binary "#{appdir}/TAW Fleet.app/Contents/MacOS/taw-fleet"
 
-  version "1.35.1"
+  version "1.36.0"
 
   on_macos do
     on_arm do
-      sha256 "9396804e3419a9d01a2cba7c8f6f52a0ea5bfa5a991d72f9ab4d0ec7c9b41a33"
+      sha256 "1d515b7b171b3ff53d6569a0e8d2c00b07f21ef69b6e86c7f128326feec6bf5d"
       url "https://github.com/Relmaur/taw-fleet/releases/download/v#{version}/taw-fleet_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b5d377f4dde0465194587b673cb4dac0d26f40ca280f09885feb88852a713afb"
+      sha256 "0011e84be750d4ddf2bb134e39e08d4f8708233da20e61ac5c9531da5021db9c"
       url "https://github.com/Relmaur/taw-fleet/releases/download/v#{version}/taw-fleet_#{version}_darwin_amd64.tar.gz"
     end
   end
